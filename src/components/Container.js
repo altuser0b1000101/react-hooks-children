@@ -1,8 +1,8 @@
 import React from "react";
 
 function Container({
-  header,
-  children,
+  header, = "thing"
+  children, = "array",//
   textPosition = "", // possible values: left, right, center
   direction = "horizontal", // possible values: verical, horizontal
   contentPosition = "center", // possible values: left, right, center
